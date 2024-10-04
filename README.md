@@ -14,11 +14,15 @@ This project utilizes the Android AArch64 GCC 4.9 toolchain from the master bran
    git clone https://github.com/Adrilaw/aarch64-linux-android-4.9-toolchain/ -b master
    
 2. **Configure Build**
+   ```bash
    export ARCH=arm64
+   
    export SUBARCH=arm64
+   
    CROSS_COMPILE=~/path/to/aarch64-linux-android-4.9-toolchain/bin/aarch64-linux-android-
 
-3. **Compile**
+4. **Compile**
+   ```bash
    make -j$(nproc)
    
    
