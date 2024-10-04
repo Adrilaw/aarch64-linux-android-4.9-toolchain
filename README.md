@@ -26,8 +26,9 @@ This project utilizes the Android AArch64 GCC 4.9 toolchain from the master bran
    make -j$(nproc)
 
 ## Notes
-This setup is optimized for Android development, using a stable GCC toolchain for AArch64 architecture.
-Suitable for developers looking for fast builds without cluttered warning outputs.
+● This setup is optimized for Android development, using a stable GCC toolchain for AArch64 architecture.
+
+● Suitable for developers looking for fast builds without cluttered warning outputs.
 
    
    
